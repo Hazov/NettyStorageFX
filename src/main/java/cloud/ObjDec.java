@@ -19,6 +19,7 @@ public class ObjDec extends ObjectDecoder {
     @Override
     protected Object decode(ChannelHandlerContext ctx, ByteBuf in) throws Exception {
         System.out.println("decode()");
+        System.out.println("DEC");
         return super.decode(ctx, in);
     }
 }
